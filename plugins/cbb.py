@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = '<b>I can store private files in Specified Channel and other users can access it from special link./n/n 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥👇/n @Tamil_serials_contact_bot </b>',
+            text = '<b>I can store private files in Specified Channel and other users can access it from special link.\n\n 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥👇\n @Tamil_serials_contact_bot </b>',
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
