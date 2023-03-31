@@ -1,6 +1,5 @@
 #(©)Codexbotz
 
-from start import start
 from pyrogram import __version__
 from bot import Bot
 from config import OWNER_ID
@@ -17,7 +16,6 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("🔒 Close", callback_data = "close")
-                        InlineKeyboardButton("🔙", callback_data="start")
                     ]
                 ]
             )
