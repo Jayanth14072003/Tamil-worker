@@ -27,6 +27,11 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5963138883"))
 #Port
 PORT = os.environ.get("PORT", "8080")
 
+#shortner
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '0af17d003ce7020eb85d2a54fe0f6ef50e770e40')
+
+
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FileShreBot:FileShreBot@cluster0.npdxa7j.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "Tamil_Serials")
