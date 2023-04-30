@@ -1,13 +1,7 @@
 #(©)CodeXBotz
-
-
-
-
 import os
 import logging
 from logging.handlers import RotatingFileHandler
-
-
 
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6046278479:AAHfBoaS4_f5NJYbCBslU7dOyq52rvm--qo")
@@ -30,7 +24,6 @@ PORT = os.environ.get("PORT", "8080")
 #shortner
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '0af17d003ce7020eb85d2a54fe0f6ef50e770e40')
-
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://FileShreBot:FileShreBot@cluster0.npdxa7j.mongodb.net/?retryWrites=true&w=majority")
